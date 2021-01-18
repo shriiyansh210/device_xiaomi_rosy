@@ -89,6 +89,7 @@ ro.telephony.iwlan_operation_mode=legacy
 service.qti.ims.enabled=1
 
 # Recovery
+PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.recovery_update=false
 
 # SurfaceFlinger
