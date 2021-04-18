@@ -20,6 +20,9 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := false
 # Inherit from rosy device
 $(call inherit-product, device/xiaomi/rosy/device.mk)
 
+#MaintainerString
+DEVICE_MAINTAINER := Shriiyansh Pandey
+
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := arrow_rosy
 PRODUCT_DEVICE := rosy
